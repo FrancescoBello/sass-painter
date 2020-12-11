@@ -2,63 +2,73 @@ footer {
   height: 400px;
 }
 
-footer .footer-top {
+footer .container {
+  width: 100%;
+}
+
+footer .container .footer-top {
   height: 300px;
   background-color: #ececec;
 }
 
-footer .footer-top .footer-list {
+footer .container .footer-top .footer-list {
   display: inline-block;
   width: 23%;
 }
 
-footer .footer-top .footer-list h3 {
+footer .container .footer-top .footer-list h3 {
   color: black;
   font-size: 15px;
 }
 
-footer .footer-top .footer-list ul {
+footer .container .footer-top .footer-list ul {
   display: inline-block;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-footer .footer-top .footer-list ul li {
+footer .container .footer-top .footer-list ul li {
   padding: 10px 10px;
   font-size: 12px;
 }
 
-footer .footer-top .footer-list ul li a {
+footer .container .footer-top .footer-list ul li a {
   color: #999;
   text-decoration: none;
 }
 
-footer .footer-top .footer-list ul li a:hover {
+footer .container .footer-top .footer-list ul li a:hover {
   text-decoration: underline;
 }
 
-footer .footer-top .social {
+footer .container .footer-top .social {
   height: 25px;
   width: 40%;
   float: right;
 }
 
-footer .footer-top .social ul {
+footer .container .footer-top .social ul {
   float: right;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-footer .footer-top .social ul li {
+footer .container .footer-top .social ul li {
   display: inline-block;
   padding: 10px;
 }
 
-footer .footer-top .social ul li a img {
+footer .container .footer-top .social ul li a img {
   width: 30px;
   height: 30px;
+}
+
+footer .container .footer-bottom {
+  height: 100px;
+  width: 100%;
+  background-color: black;
 }
 
 header {
@@ -67,60 +77,63 @@ header {
   height: 120px;
 }
 
-header .head-top {
+header .container {
+  width: 100%;
+}
+
+header .container .head-top {
   width: 100%;
   height: 50%;
 }
 
-header .head-top ul {
+header .container .head-top ul {
   float: right;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-header .head-top ul li {
+header .container .head-top ul li {
   display: inline-block;
   padding: 10px;
   font-size: 12px;
 }
 
-header .head-top ul li i {
+header .container .head-top ul li i {
   color: #009cff;
   padding: 10px;
 }
 
-header .head-top ul li a {
+header .container .head-top ul li a {
   text-decoration: none;
   color: #999;
 }
 
-header .head-top ul li a:hover {
+header .container .head-top ul li a:hover {
   color: white;
   text-decoration: underline;
 }
 
-header .head-bottom {
+header .container .head-bottom {
   height: 50%;
   width: 100%;
   padding-bottom: 10px;
 }
 
-header .head-bottom ul {
+header .container .head-bottom ul {
   list-style-type: none;
 }
 
-header .head-bottom ul li {
+header .container .head-bottom ul li {
   display: inline-block;
-  padding: 10px;
 }
 
-header .head-bottom ul li a {
+header .container .head-bottom ul li a {
   text-decoration: none;
   color: white;
 }
 
-header .head-bottom ul li a i {
+header .container .head-bottom ul li a i {
   color: #999;
 }
 

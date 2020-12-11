@@ -1,5 +1,7 @@
 footer{
   height: 400px;
+  .container{
+
   .footer-top{
     height: 300px;
     background-color: $fourth_color;
@@ -54,4 +56,30 @@ footer{
     }
 
   }
+  .footer-bottom{
+    height: 100px;
+    width: 100%;
+    background-color: #1e1e1e;
+    ul{
+      float: right;
+      list-style-type: none;
+      li{
+        display: inline-block;
+        padding: $space;
+        a{
+          text-decoration: none;
+          color: $first_color : #999;
+          &:hover{
+            color: $second_color;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    p{
+      float:right;
+      color: $second_color;
+    }
+  }
+}
 }
