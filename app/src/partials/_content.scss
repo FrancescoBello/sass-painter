@@ -1,0 +1,17 @@
+main {
+  .intro{
+    color: $second_color;
+    background-image: url("img/intro.jpg");
+    ul{
+      list-style-type: none;
+      margin-top: 30px;
+      margin-left: 200px;
+      li{
+        i{
+          color: $first_color;
+        }
+
+      }
+    }
+  }
+}
