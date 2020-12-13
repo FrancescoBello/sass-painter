@@ -130,15 +130,99 @@ header .container .head-bottom ul li a i {
 
 main .intro {
   color: white;
-  background-image: url("img/intro.jpg");
+  background-image: url("../img/intro.jpg");
+}
+main .intro h3 {
+  padding-top: 50px;
+  margin-left: 200px;
+  font-size: 25px;
+}
+main .intro h4 {
+  margin-top: 20px;
+  margin-left: 200px;
+  font-size: 20px;
 }
 main .intro ul {
   list-style-type: none;
   margin-top: 30px;
   margin-left: 200px;
 }
+main .intro ul li {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
 main .intro ul li i {
   color: #999;
+}
+main .intro button {
+  background-color: #666;
+  color: white;
+  width: 200px;
+  height: 60px;
+  margin-left: 200px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+main .intro button span {
+  text-align: left;
+  padding: 10px 10px;
+}
+main .intro button span {
+  text-align: left;
+  padding: 10px 10px;
+}
+main .intro button a {
+  text-decoration: none;
+  text-align: right;
+  padding: 10px 10px;
+  font-size: 40px;
+  color: white;
+}
+main .intro .box {
+  display: inline-block;
+  float: right;
+  background-color: black;
+  width: 450px;
+  height: 350px;
+  padding-top: 10px;
+  color: white;
+}
+main .intro .box h3 {
+  padding: 10px 10px;
+}
+main .intro .box p {
+  text-transform: uppercase;
+  color: #999;
+  padding: 10px 10px;
+}
+main .intro .box button {
+  background-color: #009cff;
+  text-transform: uppercase;
+  padding: 10px 10px;
+}
+main .intro .box .offer {
+  display: inline-block;
+  background-color: white;
+  width: 430px;
+  height: 130px;
+  margin-left: 10px;
+  color: black;
+  padding-bottom: 40px;
+}
+main .intro .box .offer h3 {
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+main .intro .box .offer p {
+  margin-left: 10px;
+}
+main .intro .box .offer a {
+  text-decoration: none;
+  color: #009cff;
+  margin-left: 10px;
+}
+main .intro .box .offer a:hover {
+  text-decoration: underline;
 }
 
 * {

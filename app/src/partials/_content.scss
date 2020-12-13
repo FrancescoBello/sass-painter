@@ -1,15 +1,96 @@
 main {
   .intro{
     color: $second_color;
-    background-image: url("img/intro.jpg");
+    background-image: url("../img/intro.jpg");
+    h3{
+      padding-top: 50px;
+      margin-left: 200px;
+      font-size: 25px;
+    }h4{
+      margin-top: 20px;
+      margin-left: 200px;
+      font-size: 20px;
+    }
     ul{
       list-style-type: none;
       margin-top: 30px;
       margin-left: 200px;
       li{
+        padding-bottom: $space;
+        font-size: 18px;
         i{
           color: $first_color;
         }
+
+      }
+    }
+    button{
+      background-color: #666;
+      color: $second_color;
+      width: 200px;
+      height: 60px;
+      margin-left: 200px;
+      margin-top: 30px;
+      margin-bottom: $space;
+      span {
+        text-align: left;
+        padding: $space $space;
+      }
+      span {
+        text-align: left;
+        padding: $space $space;
+      }
+      a{
+        text-decoration: none;
+        text-align: right;
+        padding:  $space $space;
+        font-size: 40px;
+        color: $second_color;
+      }
+    }
+    .box{
+      display: inline-block;
+      float: right;
+      background-color: $fifth_color;
+      width: 450px;
+      height: 350px;
+      padding-top: 10px;
+      color: $second_color;
+      h3{
+        padding: $space $space;
+      }p{
+        text-transform: uppercase;
+        color: $first_color;
+        padding: $space $space;
+      }button{
+        background-color: #009cff;
+        text-transform: uppercase;
+        padding: $space $space;
+
+      }
+      .offer{
+        display: inline-block;
+        background-color: $second_color;
+        width: 430px;
+        height: 130px;
+        margin-left: $space;
+        color: $fifth_color;
+        padding-bottom: 40px;
+        h3{
+          text-transform: uppercase;
+          margin-left: $space;
+        }p{
+          margin-left: $space;
+
+        }
+        a{
+          text-decoration: none;
+          color: #009cff;
+          margin-left: $space;
+           &:hover{
+             text-decoration: underline;
+           }
+         }
 
       }
     }
